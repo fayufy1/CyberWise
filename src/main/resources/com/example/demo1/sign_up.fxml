@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.demo1.SignUpController"
+      style="-fx-background-color: white;">
+
+    <padding>
+        <Insets top="40.0" right="40.0" bottom="40.0" left="40.0"/>
+    </padding>
+
+    <Label text="Sign Up" styleClass="title" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+    <TextField fx:id="usernameField" promptText="Username" style="-fx-pref-width: 200px;"/>
+    <TextField fx:id="passwordField" promptText="Password" style="-fx-pref-width: 200px;"/>
+
+    <Button fx:id="submitButton" text="Submit" onAction="#handleSubmitButtonClick" style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;"/>
+</VBox>
