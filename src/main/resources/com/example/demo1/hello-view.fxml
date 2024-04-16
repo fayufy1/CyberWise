@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane style="-fx-background-color: transparent;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.demo1.HelloController">
+
+    <VBox alignment="CENTER" spacing="30.0" style="-fx-background-color: white;">
+
+        <padding>
+            <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+        </padding>
+
+        <!-- Navigation Bar -->
+        <HBox alignment="CENTER" spacing="20.0">
+            <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" styleClass="logo" text="CYBERWISE" />
+            <ImageView fitHeight="33.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@logo.png" />
+                </image>
+            </ImageView>
+            <HBox alignment="CENTER_RIGHT" spacing="20.0" HBox.hgrow="ALWAYS">
+                <Button style="-fx-background-color: transparent; -fx-text-fill: #4a4a4a;" styleClass="menu-button" text="Features" />
+                <Button style="-fx-background-color: transparent; -fx-text-fill: #4a4a4a;" styleClass="menu-button" text="About us" />
+                <Button style="-fx-background-color: transparent; -fx-text-fill: #4a4a4a;" styleClass="menu-button" text="Contact" />
+                <Button style="-fx-background-color: transparent; -fx-text-fill: #4a4a4a;" styleClass="menu-button" text="Sign in" />
+                <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px;"  styleClass="menu-button" text="Sign up" />
+            </HBox>
+        </HBox>
+
+        <!-- Hero Section -->
+        <VBox alignment="CENTER" spacing="20.0">
+            <Label style="-fx-font-size: 32px; -fx-font-weight: bold;" styleClass="hero-title" text="Empower Yourself with CyberWise" />
+            <Label style="-fx-font-size: 18px; -fx-text-fill: #4a4a4a;" styleClass="hero-subtitle" text="Your Comprehensive Online Safety Web App" />
+            <HBox spacing="20.0">
+                <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 12px 24px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="hero-button" text="Join us now" />
+                <Button style="-fx-background-color: transparent; -fx-text-fill: #6c63ff; -fx-padding: 12px 24px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="hero-button" text="Browse Features" />
+            </HBox>
+        </VBox>
+
+        <!-- Feature Sections -->
+        <VBox spacing="40.0">
+            <!-- Feature 1 -->
+            <VBox spacing="20.0">
+                <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" styleClass="feature-title" text="PASSWORD MANAGER" />
+                <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@password-manager.png" />
+                    </image>
+                </ImageView>
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="feature-description" text="Effortlessly safeguard and manage all your passwords with CyberWise's secure Password Manager. Never worry about forgetting or compromising your passwords again." />
+                <HBox spacing="20.0">
+                    <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="feature-button" text="Try now" />
+                    <Button style="-fx-background-color: transparent; -fx-text-fill: #6c63ff; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="feature-button" text="Learn more" />
+                </HBox>
+            </VBox>
+
+            <!-- Feature 2 -->
+            <VBox spacing="20.0">
+                <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" styleClass="feature-title" text="PARENTAL CONTROLS" />
+                <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@parental-controls.png" />
+                    </image>
+                </ImageView>
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="feature-description" text="Take charge of your family's online safety with CyberWise's Parental Controls. Easily monitor and manage your children's online activities." />
+                <HBox spacing="20.0">
+                    <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="feature-button" text="Try now" />
+                    <Button style="-fx-background-color: transparent; -fx-text-fill: #6c63ff; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="feature-button" text="Learn more" />
+                </HBox>
+            </VBox>
+        </VBox>
+
+        <!-- Get Started Section -->
+        <VBox alignment="CENTER" spacing="20.0">
+            <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" styleClass="section-title" text="Get started!" />
+            <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="section-description" text="Start your journey towards online safety today." />
+            <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 12px 24px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="section-button" text="Sign Up" />
+        </VBox>
+
+        <!-- Footer -->
+        <HBox alignment="CENTER" spacing="40.0" style="-fx-padding: 40px 0 0 0; -fx-border-top-color: #f0f0f0; -fx-border-top-width: 1px;">
+            <VBox spacing="20.0">
+                <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" styleClass="footer-label" text="CYBERWISE" />
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="footer-label" text="Product" />
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="footer-label" text="Features" />
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="footer-label" text="Company" />
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="footer-label" text="About" />
+            </VBox>
+            <VBox spacing="20.0">
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="footer-label" text="Resources" />
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="footer-label" text="Blog" />
+            </VBox>
+            <VBox spacing="20.0">
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="footer-label" text="Subscribe to our newsletter" />
+                <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="footer-button" text="Subscribe" />
+            </VBox>
+        </HBox>
+    </VBox>
+</ScrollPane>
