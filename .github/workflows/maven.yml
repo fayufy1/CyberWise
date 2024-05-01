@@ -1,0 +1,34 @@
+name: Generate and Deploy Javadoc
+
+on:
+  push:
+    branches:
+      - main  # Adjust the branch as per your needs
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        distribution: 'adopt'
+        java-version: '11'
+
+    - name: Build with Maven
+      run: mvn clean install
+      working-directory: ./
+
+    - name: Generate Javadoc
+      run: mvn javadoc:javadoc
+      working-directory: ./
+
+    - name: Deploy Javadoc to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./target/docs/javadoc  # Adjust if your Javadoc output directory is different
