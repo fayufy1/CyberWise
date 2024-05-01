@@ -3,7 +3,7 @@ name: Generate and Deploy Javadoc
 on:
   push:
     branches:
-      - main  # Adjust the branch as per your needs
+      - master  # Adjust the branch as per your needs
 
 jobs:
   build:
