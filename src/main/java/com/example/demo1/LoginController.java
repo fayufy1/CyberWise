@@ -14,7 +14,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-
+/**
+ * Controller class for the Login view.
+ */
 public class LoginController {
 
     @FXML
@@ -25,7 +27,9 @@ public class LoginController {
 
     @FXML
     private Button loginButton;
-
+    /**
+     * Handles the click event of the Login button.
+     */
     @FXML
     private void handleLoginButtonClick() {
         String username = usernameField.getText();
@@ -60,7 +64,9 @@ public class LoginController {
             alert.showAndWait();
         }
     }
-
+    /**
+     * Opens the logged-in page after successful login.
+     */
     private void openLoggedInPage() {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("LoggedIn.fxml"));

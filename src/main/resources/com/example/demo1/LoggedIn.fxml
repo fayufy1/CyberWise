@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.LoginController">
+    <children>
+        <VBox alignment="CENTER" layoutX="43.0" layoutY="25.0" spacing="40.0">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@logo.png" /> <!-- Replace with your logo image path -->
+                    </image>
+                </ImageView>
+                <Label text="Welcome to CyberWise!" textFill="#4B0082">
+                    <font>
+                        <Font name="System Bold" size="48.0" />
+                    </font>
+                </Label>
+                <Label text="Your Comprehensive Online Safety Web App" textFill="#9370DB">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Label>
+                <ImageView fitHeight="300.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@password-manager.png" /> <!-- Replace with your image path -->
+                    </image>
+                </ImageView>
+                <Label text="Empower Yourself with CyberWise!" textAlignment="CENTER" textFill="#4B0082" wrapText="true">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </Label>
+                <Label text="Stay safe, secure, and in control of your online experience. CyberWise is your ultimate companion for a worry-free digital life." textAlignment="CENTER" textFill="#9370DB" wrapText="true">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+            </children>
+            <padding>
+                <Insets bottom="40.0" left="40.0" right="40.0" top="40.0" />
+            </padding>
+        </VBox>
+    </children>
+</AnchorPane>

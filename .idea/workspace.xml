@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="d793d0bb-3c64-47af-84f8-d77acf1eec93" name="Changes" comment="">
+    <list default="true" id="fb69f211-409d-47a5-bd46-bc8108f02070" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-j-8.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo1/LoggedIn.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo1/login.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo1/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/DBUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo1/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo1/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo1/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo1/SignUpController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/SignUpController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo1/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo1/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo1/sign_up.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo1/sign_up.fxml" afterDir="false" />
     </list>
-=======
-    <list default="true" id="d793d0bb-3c64-47af-84f8-d77acf1eec93" name="Changes" comment="" />
->>>>>>> 5bc0f34ab5c6d113d10d11efd0578391d3c7e687
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,68 +26,51 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2fACt06bpALgh5dnO7xcw7uFPuB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-<<<<<<< HEAD
-    "last_opened_file_path": "C:/Users/fayki/Downloads/demo1",
-=======
-    "last_opened_file_path": "C:/Users/BADER/IdeaProjects/demo1",
->>>>>>> 5bc0f34ab5c6d113d10d11efd0578391d3c7e687
-    "settings.editor.selected.configurable": "preferences.JavaFX"
+    "last_opened_file_path": "C:/Users/fayki/IdeaProjects/CyberWise/lib/mysql-connector-j-8.3.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fayki\IdeaProjects\CyberWise\src\main\resources\com\example\demo1" />
+      <recent name="C:\Users\fayki\IdeaProjects\CyberWise" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d793d0bb-3c64-47af-84f8-d77acf1eec93" name="Changes" comment="" />
-      <created>1713234707449</created>
+      <changelist id="fb69f211-409d-47a5-bd46-bc8108f02070" name="Changes" comment="" />
+      <created>1714538190233</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1713234707449</updated>
+      <updated>1714538190233</updated>
     </task>
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

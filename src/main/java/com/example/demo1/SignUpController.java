@@ -16,7 +16,9 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.sql.ResultSet;
-
+/**
+ * Controller class for the Sign-Up view.
+ */
 public class SignUpController {
 
     @FXML
@@ -30,6 +32,9 @@ public class SignUpController {
     @FXML
     private Label button_login;
 
+    /**
+     * Handles the submission of the Sign-Up form.
+     */
     @FXML
     private void handleSubmitButtonClick() {
         String username = usernameField.getText().trim(); // Trim to remove leading/trailing spaces
@@ -85,7 +90,10 @@ public class SignUpController {
             alert.showAndWait();
         }
     }
-
+    /**
+     * Handles the click event of the login label.
+     * @param event The MouseEvent object representing the click event.
+     */
     @FXML
     private void handleLoginLabelClick(MouseEvent event) {
         try {

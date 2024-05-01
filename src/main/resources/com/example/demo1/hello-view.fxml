@@ -29,8 +29,8 @@
                 <Button style="-fx-background-color: transparent; -fx-text-fill: #4a4a4a;" styleClass="menu-button" text="Features" />
                 <Button style="-fx-background-color: transparent; -fx-text-fill: #4a4a4a;" styleClass="menu-button" text="About us" />
                 <Button style="-fx-background-color: transparent; -fx-text-fill: #4a4a4a;" styleClass="menu-button" text="Contact" />
-                <Button style="-fx-background-color: transparent; -fx-text-fill: #4a4a4a;" styleClass="menu-button" text="Sign in" />
-                <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px;"  styleClass="menu-button" text="Sign up" />
+                <Button fx:id="signInButton" onAction="#onSignInButtonClick" style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="menu-button" text="Sign In" />
+                <Button fx:id="signUpButton" onAction="#onSignUpButtonClick" style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="menu-button" text="Sign up" />
             </HBox>
         </HBox>
 
@@ -81,7 +81,7 @@
         <VBox alignment="CENTER" spacing="20.0">
             <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" styleClass="section-title" text="Get started!" />
             <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="section-description" text="Start your journey towards online safety today." />
-            <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 12px 24px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="section-button" text="Sign Up" />
+            <Button onAction="#onSignInButtonClick" style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 12px 24px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="section-button" text="Sign Up" />
         </VBox>
 
         <!-- Footer -->
