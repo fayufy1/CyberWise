@@ -27,8 +27,7 @@ jobs:
       run: mvn javadoc:javadoc
       working-directory: ./
 
-    - name: Deploy Javadoc to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+    - name: Publish Javadoc
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./target/docs/javadoc  # Adjust if your Javadoc output directory is different
+        folder: target/docs/javadoc
