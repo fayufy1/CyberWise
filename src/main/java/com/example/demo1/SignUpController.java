@@ -1,12 +1,21 @@
 package com.example.demo1;
 
+import com.example.demo1.DBUtils;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Label;
+import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
+import javafx.scene.Scene;
 
-import java.net.URL;
-import java.util.ResourceBundle;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.ResultSet;
 
 public class SignUpController {
 
@@ -18,23 +27,80 @@ public class SignUpController {
 
     @FXML
     private Button submitButton;
+    @FXML
+    private Label button_login;
 
     @FXML
     private void handleSubmitButtonClick() {
-        // Code to handle sign-up submission
-        // For example:
-        String username = usernameField.getText();
-        String password = passwordField.getText();
+        String username = usernameField.getText().trim(); // Trim to remove leading/trailing spaces
+        String password = passwordField.getText().trim();
 
-        // Perform sign-up logic here...
+        // Check if username or password is empty
+        if (username.isEmpty() || password.isEmpty()) {
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText(null);
+            alert.setContentText("Please enter both username and password.");
+            alert.showAndWait();
+            return; // Exit method
+        }
 
-        // Display confirmation message
-        Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("Sign Up");
-        alert.setHeaderText(null);
-        alert.setContentText("Sign Up Successful! Welcome, " + username + "!");
-        alert.showAndWait();
+        try (Connection connection = DBUtils.getConnection()) {
+            // Check if the username already exists
+            String checkSql = "SELECT * FROM users WHERE username_ = ?";
+            try (PreparedStatement checkStatement = connection.prepareStatement(checkSql)) {
+                checkStatement.setString(1, username);
+                ResultSet resultSet = checkStatement.executeQuery();
+                if (resultSet.next()) {
+                    // Username already exists, show error message
+                    Alert alert = new Alert(Alert.AlertType.ERROR);
+                    alert.setTitle("Error");
+                    alert.setHeaderText(null);
+                    alert.setContentText("Username already in use. Please choose another username.");
+                    alert.showAndWait();
+                    return; // Exit method
+                }
+            }
 
-        // You can close the sign-up window or navigate to another page here
+            // If username doesn't exist, proceed with signup
+            String sql = "INSERT INTO users (username_, password) VALUES (?, ?)";
+            try (PreparedStatement statement = connection.prepareStatement(sql)) {
+                statement.setString(1, username);
+                statement.setString(2, password);
+                statement.executeUpdate();
+            }
+            // Display confirmation message
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            alert.setTitle("Sign Up");
+            alert.setHeaderText(null);
+            alert.setContentText("Sign Up Successful! Welcome, " + username + "!");
+            alert.showAndWait();
+        } catch (SQLException e) {
+            // Handle database errors
+            e.printStackTrace();
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText(null);
+            alert.setContentText("Error occurred while signing up. Please try again.");
+            alert.showAndWait();
+        }
+    }
+
+    @FXML
+    private void handleLoginLabelClick(MouseEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("login.fxml"));
+            Stage stage = (Stage) button_login.getScene().getWindow();
+            Scene scene = new Scene(loader.load());
+            stage.setScene(scene);
+            stage.show();
+        } catch (Exception e) {
+            e.printStackTrace();
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Error");
+            alert.setHeaderText(null);
+            alert.setContentText("Error occurred while loading login page.");
+            alert.showAndWait();
+        }
     }
 }
