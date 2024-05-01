@@ -37,7 +37,7 @@ public class HelloApplication extends Application {
      * @throws IOException If an error occurs during loading of the FXML file.
      */
     public void openSignUpPage() throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("sign_ugip.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("sign_up.fxml"));
         Parent root = fxmlLoader.load();
         Stage signUpStage = new Stage();
         signUpStage.setScene(new Scene(root));
