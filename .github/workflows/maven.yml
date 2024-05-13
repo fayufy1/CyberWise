@@ -22,7 +22,6 @@ jobs:
       
     - name: Generate Javadoc
       run: mvn javadoc:javadoc
-      working-directory: ./
 
     - name: Publish Javadoc
       uses: JamesIves/github-pages-deploy-action@v4
