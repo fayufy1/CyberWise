@@ -8,8 +8,9 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<ScrollPane style="-fx-background-color: transparent;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.example.demo1.HelloController">
+<ScrollPane style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
 
     <VBox alignment="CENTER" spacing="30.0" style="-fx-background-color: white;">
 
@@ -48,7 +49,10 @@
         <VBox spacing="40.0">
             <!-- Feature 1 -->
             <VBox spacing="20.0">
-                <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" styleClass="feature-title" text="PASSWORD MANAGER" />
+                <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" styleClass="feature-title" text="PASSWORD MANAGER">
+               <font>
+                  <Font name="Arial" size="20.0" />
+               </font></Label>
                 <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@password-manager.png" />
@@ -56,22 +60,22 @@
                 </ImageView>
                 <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="feature-description" text="Effortlessly safeguard and manage all your passwords with CyberWise's secure Password Manager. Never worry about forgetting or compromising your passwords again." />
                 <HBox spacing="20.0">
-                    <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="feature-button" text="Try now" />
-                    <Button style="-fx-background-color: transparent; -fx-text-fill: #6c63ff; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="feature-button" text="Learn more" />
+                    <Button fx:id="tryNowButton" style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" text="Try now" />
+                    <Button fx:id="learnMoreButton" style="-fx-background-color: transparent; -fx-text-fill: #6c63ff; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" text="Learn more" />
                 </HBox>
             </VBox>
 
             <!-- Feature 2 -->
             <VBox spacing="20.0">
-                <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" styleClass="feature-title" text="PARENTAL CONTROLS" />
+                <Label style="-fx-font-size: 18px; -fx-font-weight: bold;" styleClass="feature-title" text="EDUCATIONAL RESOURCE HUB" />
                 <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                     <image>
                         <Image url="@parental-controls.png" />
                     </image>
                 </ImageView>
-                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="feature-description" text="Take charge of your family's online safety with CyberWise's Parental Controls. Easily monitor and manage your children's online activities." />
+                <Label style="-fx-font-size: 14px; -fx-text-fill: #4a4a4a;" styleClass="feature-description" text="Explore a comprehensive library of engaging and informative videos on online safety and security with our Educational Resources Hub." />
                 <HBox spacing="20.0">
-                    <Button style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="feature-button" text="Try now" />
+                    <Button fx:id="tryNowButtonEducationHub" onAction="#onTryNowEducationalResourcesHubClick" style="-fx-background-color: #6c63ff; -fx-text-fill: white; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="feature-button" text="Try now" />
                     <Button style="-fx-background-color: transparent; -fx-text-fill: #6c63ff; -fx-padding: 8px 16px; -fx-font-size: 14px; -fx-font-weight: bold; -fx-background-radius: 24px;" styleClass="feature-button" text="Learn more" />
                 </HBox>
             </VBox>

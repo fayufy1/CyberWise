@@ -7,11 +7,13 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+
 /**
  * The main application class responsible for launching the CyberWise Home Page.
  */
 public class HelloApplication extends Application {
     private HelloController helloController;
+
     /**
      * Starts the CyberWise Home Page application.
      * @param primaryStage The primary stage of the application.
@@ -32,6 +34,7 @@ public class HelloApplication extends Application {
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
     }
+
     /**
      * Opens the Sign-Up page.
      * @throws IOException If an error occurs during loading of the FXML file.
@@ -44,6 +47,7 @@ public class HelloApplication extends Application {
         signUpStage.setTitle("Sign Up");
         signUpStage.show();
     }
+
     /**
      * Opens the Login page.
      * @throws IOException If an error occurs during loading of the FXML file.
@@ -56,6 +60,20 @@ public class HelloApplication extends Application {
         loginStage.setTitle("Login");
         loginStage.show();
     }
+
+    /**
+     * Opens the Educational Resources Hub page.
+     * @throws IOException If an error occurs during loading of the FXML file.
+     */
+    public void openEducationalResourcesHubPage() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("EducationalResourcesHub.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage educationalResourcesHubStage = new Stage();
+        educationalResourcesHubStage.setScene(new Scene(root));
+        educationalResourcesHubStage.setTitle("Educational Resources Hub");
+        educationalResourcesHubStage.show();
+    }
+
     /**
      * The main entry point for the application.
      * @param args Command-line arguments.

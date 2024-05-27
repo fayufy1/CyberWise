@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<ScrollPane style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+    <VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: #f5f5f5; -fx-padding: 40px;">
+        <Label style="-fx-font-size: 32px; -fx-font-weight: bold; -fx-text-fill: #333333;" text="Educational Resources Hub" />
+        <Label style="-fx-font-size: 18px; -fx-text-fill: #555555;" text="Welcome to the Educational Resources Hub. Here you'll find articles, tutorials, videos, and interactive modules on various online safety topics including cyberbullying, phishing, malware, identity theft, and social media safety." />
+
+        <VBox spacing="30.0">
+            <!-- Cyberbullying Section -->
+            <HBox spacing="20.0" alignment="TOP_LEFT">
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@cyber.jpg" />
+                    </image>
+                </ImageView>
+                <VBox spacing="10.0">
+                    <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Cyberbullying" />
+                    <Label style="-fx-font-size: 14px;" text="Learn how to recognize, prevent, and respond to cyberbullying with our comprehensive guides and tutorials." />
+                    <Label style="-fx-font-size: 12px;" text="Resources: Articles, Videos, Guides" />
+                    <Hyperlink text="Guide to Recognize Cyberbullying"/>
+                    <Hyperlink text="Cyberbullying Prevention Strategies" onAction="#handleCyberbullyingPreventionLink"/>
+                    <Hyperlink text="Responding to Cyberbullying" onAction="#handleCyberbullyingResponseLink"/>
+                </VBox>
+            </HBox>
+
+            <!-- Phishing Section -->
+            <HBox spacing="20.0" alignment="TOP_LEFT">
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@phising.jpg" />
+                    </image>
+                </ImageView>
+                <VBox spacing="10.0">
+                    <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Phishing" />
+                    <Label style="-fx-font-size: 14px;" text="Understand the tactics used by phishers and how to protect yourself from phishing scams." />
+                    <Label style="-fx-font-size: 12px;" text="Resources: Articles, Interactive Modules, Videos" />
+                    <Hyperlink text="Phishing Tactics Explained" onAction="#handlePhishingTacticsLink"/>
+                    <Hyperlink text="Protecting Yourself from Phishing" onAction="#handlePhishingProtectionLink"/>
+                    <Hyperlink text="Interactive Phishing Simulation" onAction="#handlePhishingSimulationLink"/>
+                </VBox>
+            </HBox>
+
+            <!-- Malware Section -->
+            <HBox spacing="20.0" alignment="TOP_LEFT">
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@malware.jpg" />
+                    </image>
+                </ImageView>
+                <VBox spacing="10.0">
+                    <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Malware" />
+                    <Label style="-fx-font-size: 14px;" text="Get insights into different types of malware and best practices for safeguarding your devices." />
+                    <Label style="-fx-font-size: 12px;" text="Resources: Articles, Tutorials, Videos" />
+                    <Hyperlink text="Types of Malware" onAction="#handleMalwareTypesLink"/>
+                    <Hyperlink text="Preventing Malware Infections" onAction="#handleMalwarePreventionLink"/>
+                    <Hyperlink text="Malware Removal Tools" onAction="#handleMalwareRemovalLink"/>
+                </VBox>
+            </HBox>
+
+            <!-- Identity Theft Section -->
+            <HBox spacing="20.0" alignment="TOP_LEFT">
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@theft.jpg" />
+                    </image>
+                </ImageView>
+                <VBox spacing="10.0">
+                    <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Identity Theft" />
+                    <Label style="-fx-font-size: 14px;" text="Discover how to protect your personal information and prevent identity theft." />
+                    <Label style="-fx-font-size: 12px;" text="Resources: Articles, Guides, Videos" />
+                    <Hyperlink text="Protecting Personal Information" onAction="#handleIdentityProtectionLink"/>
+                    <Hyperlink text="Steps to Take if Identity is Stolen" onAction="#handleIdentityTheftStepsLink"/>
+                    <Hyperlink text="Understanding Identity Theft" onAction="#handleIdentityTheftUnderstandingLink"/>
+                </VBox>
+            </HBox>
+
+            <!-- Social Media Safety Section -->
+            <HBox spacing="20.0" alignment="TOP_LEFT">
+                <ImageView fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@safety.jpg" />
+                    </image>
+                </ImageView>
+                <VBox spacing="10.0">
+                    <Label style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Social Media Safety" />
+                    <Label style="-fx-font-size: 14px;" text="Learn how to maintain privacy and security while using social media platforms." />
+                    <Label style="-fx-font-size: 12px;" text="Resources: Articles, Videos, Interactive Guides" />
+                    <Hyperlink text="Social Media Privacy Settings" onAction="#handleSocialMediaPrivacyLink"/>
+                    <Hyperlink text="Safe Social Media Practices" onAction="#handleSocialMediaSafetyLink"/>
+                    <Hyperlink text="Interactive Social Media Safety Guide" onAction="#handleSocialMediaGuideLink"/>
+                </VBox>
+            </HBox>
+        </VBox>
+    </VBox>
+</ScrollPane>
