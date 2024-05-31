@@ -4,8 +4,378 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69f211-409d-47a5-bd46-bc8108f02070" name="Changes" comment="">
+    <list default="true" id="fb69f211-409d-47a5-bd46-bc8108f02070" name="Changes" comment="phase 3">
+      <change afterPath="$PROJECT_DIR$/PasswordManager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__com_google_crypto_tink_tink_1_4_0_rc2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_controlsfx_controlsfx_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_json_json_20180813.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_controls_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_media_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_media_win_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_web_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_web_win_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__com_google_crypto_tink_tink_1_4_0_rc2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_controlsfx_controlsfx_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_json_json_20180813.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_controls_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_media_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_media_win_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_web_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_web_win_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/Images/Login.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/Images/NewUser1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/Images/main-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/ApplicationCredential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/Credential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/CredentialHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/GameCredential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/Type.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/WebsiteCredential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/encryption/EncryptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/encryption/StringEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/generator/PasswordGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/mainclasses/Bridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/mainclasses/FileStructureCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/mainclasses/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/properties/PropertiesHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/Choice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/ChoiceCredentialDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/ErrorDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/ExceptionDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/LoginDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/NewUserDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/RemoveCredentialDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/SuccessDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/refresh/RefreshHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/sidebar/SideBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/sidebar/TreeBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/toggle/ToggleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/toolbar/ButtonCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/toolbar/ToolBarHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/window/InnerContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/window/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/window/WindowShell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/users/UserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/help.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/add_24px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/add_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/application_shield_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/change_24px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/checked_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/delete_24px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/edit_file_24px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/error_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/eye_24px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/game_controller_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/hide_24px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/password_16px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/question_mark_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/refresh_24px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/security_lock_112px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/thumbs_up_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/website_48px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/c1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/c3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/c4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/c6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/c7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/c8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/u1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/u2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/u3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/PasswordManager/PasswordManager/user/user.pm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/c1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/c2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/c3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/c4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/c6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/u1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/u2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/u3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/u4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/u5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/u6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PasswordManager/user/user.pm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-jmods-22.0.1/javafx.base.jmod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-jmods-22.0.1/javafx.controls.jmod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-jmods-22.0.1/javafx.fxml.jmod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-jmods-22.0.1/javafx.graphics.jmod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-jmods-22.0.1/javafx.media.jmod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-jmods-22.0.1/javafx.swing.jmod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-jmods-22.0.1/javafx.web.jmod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-console-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-console-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-datetime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-debug-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-errorhandling-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-file-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-file-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-file-l2-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-handle-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-interlocked-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-libraryloader-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-localization-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-memory-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-namedpipe-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-processenvironment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-processthreads-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-processthreads-l1-1-1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-profile-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-rtlsupport-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-synch-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-synch-l1-2-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-sysinfo-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-timezone-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-core-util-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-conio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-convert-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-environment-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-filesystem-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-heap-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-locale-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-math-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-multibyte-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-private-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-process-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-runtime-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-stdio-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-string-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-time-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/api-ms-win-crt-utility-l1-1-0.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/decora_sse.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/fxplugins.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/glass.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/glib-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/gstreamer-lite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/javafx_font.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/javafx_iio.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/jfxmedia.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/jfxwebkit.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/msvcp140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/msvcp140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/msvcp140_2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/prism_common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/prism_d3d.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/prism_sw.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/ucrtbase.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/bin/vcruntime140_1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.base/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.base/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.base/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.controls/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.controls/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.controls/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.fxml/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.fxml/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.fxml/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.graphics/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.graphics/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.graphics/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.graphics/jpeg_fx.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.graphics/mesa3d.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.media/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.media/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.media/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.media/directshow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.media/glib.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.media/gstreamer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.media/libffi.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.swing/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.swing/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.swing/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.web/ADDITIONAL_LICENSE_INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.web/ASSEMBLY_EXCEPTION" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.web/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.web/icu_web.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.web/libxml2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.web/libxslt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/legal/javafx.web/webkit.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/lib/javafx-swt.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/lib/javafx.base.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/lib/javafx.controls.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/lib/javafx.fxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/lib/javafx.graphics.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/lib/javafx.media.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/lib/javafx.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/lib/javafx.swing.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/lib/javafx.web.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javafx-sdk-22.0.1/src.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__com_google_crypto_tink_tink_1_4_0_rc2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_controlsfx_controlsfx_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_json_json_20180813.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_controls_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_media_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_media_win_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_web_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_web_win_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__com_google_crypto_tink_tink_1_4_0_rc2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__junit_junit_4_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_controlsfx_controlsfx_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_json_json_20180813.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_base_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_base_win_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_controls_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_media_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_media_win_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_web_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_openjfx_javafx_web_win_14_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/Images/Login.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/Images/NewUser1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/Images/main-screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/ApplicationCredential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/Credential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/CredentialHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/GameCredential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/credentials/WebsiteCredential.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/encryption/EncryptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/encryption/StringEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/generator/PasswordGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/mainclasses/Bridge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/mainclasses/FileStructureCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/mainclasses/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/properties/PropertiesHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/Choice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/ChoiceCredentialDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/ErrorDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/ExceptionDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/LoginDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/NewUserDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/RemoveCredentialDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/dialog/SuccessDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/refresh/RefreshHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/sidebar/SideBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/sidebar/TreeBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/toggle/ToggleHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/toolbar/ButtonCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/toolbar/ToolBarHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/window/InnerContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/window/MainWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/ui/window/WindowShell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/users/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/java/passwordmanagers/users/UserHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/add_24px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/add_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/application_shield_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/change_24px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/checked_16px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/delete_24px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/edit_file_24px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/error_16px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/eye_24px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/game_controller_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/hide_24px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/password_16px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/question_mark_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/refresh_24px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/security_lock_112px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/thumbs_up_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/PasswordManager/src/main/resources/images/website_48px.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/c2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/c4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/c6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/c7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/c8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/u1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/u2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/u3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/PasswordManager/PasswordManager/user/user.pm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/c2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/u1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/u2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Password_Manager/user/user.pm" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,49 +392,60 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BMALHARTHI"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BMALHARTHI&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/fayufy1/CyberWise.git",
-    "accountId": "2ea64872-0e1b-42a3-a8ff-1d908152d30e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/fayufy1/CyberWise.git&quot;,
+    &quot;accountId&quot;: &quot;2ea64872-0e1b-42a3-a8ff-1d908152d30e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2fqfoBGrxo1Wnmm2Jr9Lpjb4ca4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo1 [org.apache.maven.plugins:maven-javadoc-plugin:3.4.0:javadoc].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo1 [org.apache.maven.plugins:maven-javadoc-plugin:3.4.0:test-aggregate-jar].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.demo1 [package].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Queensland University of Technology/Semester 4/CAB302/CyberWise/lib/mysql-connector-j-8.3.0.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.HelloApplication.executor": "Run",
+    "Maven.demo1 [org.apache.maven.plugins:maven-javadoc-plugin:3.4.0:javadoc].executor": "Run",
+    "Maven.demo1 [org.apache.maven.plugins:maven-javadoc-plugin:3.4.0:test-aggregate-jar].executor": "Run",
+    "Maven.demo1 [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/fayki/IdeaProjects/CyberWise/lib/mysql-connector-j-8.3.0.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\fayki\IdeaProjects\CyberWise\src\main\resources\com\example\demo1" />
       <recent name="C:\Users\fayki\IdeaProjects\CyberWise" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,6 +456,20 @@
       <option name="presentableId" value="Default" />
       <updated>1714538190233</updated>
     </task>
+    <task id="LOCAL-00001" summary="phase 3">
+      <option name="closed" value="true" />
+      <created>1716791285939</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716791285939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="phase 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="phase 3" />
   </component>
 </project>
